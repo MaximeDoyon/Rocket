@@ -24,7 +24,7 @@ public class Rocket : MonoBehaviour
             0
         ) * _maxForceParSeconde * Time.fixedDeltaTime;
             _rigidbody.AddForce(force);
-            //_goUp = false;
+            _goUp = false;
         }     
     }
     void OnJump(InputValue inputValue)
